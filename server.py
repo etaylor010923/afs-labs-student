@@ -1,3 +1,4 @@
+
 from flask import Flask, render_template, redirect, request, flash, session, jsonify
 from jinja2 import StrictUndefined
 from model import connect_to_db, db, Product, Recipe, Customer, Customer_Recipe, Pickup
